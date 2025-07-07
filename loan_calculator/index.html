@@ -1,0 +1,45 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Calculator</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link external CSS -->
+</head>
+<body>
+
+    <div class="container">
+        <h2 style="color:#007bff;">Loan Calculator</h2>
+
+        <!-- Loan Amount -->
+        <div class="formgroup">
+            <label for="loanAmount">Loan Amount ($):</label>
+            <input type="number" id="loanAmount" min="1" placeholder="Enter loan amount">
+        </div>
+
+        <!-- Loan Term (Years) -->
+        <div class="formgroup">
+            <label for="loanYears">Loan Term (Years):</label>
+            <input type="number" id="loanYears" min="1" max="30" value="10">
+        </div>
+
+        <!-- Interest Rate -->
+        <div class="formgroup">
+            <label for="interestRate">Interest Rate (%):</label>
+            <input type="range" id="interestRate" min="0" max="20" step="0.1" value="5">
+            <span id="rateDisplay">5%</span>
+        </div>
+
+        <!-- Total Amount to Repay -->
+        <div class="formgroup">
+            <label>Total Amount to Repay:</label>
+            <span id="totalRepayment">$0.00</span>
+        </div>
+
+        <!-- Calculate Button -->
+        <button class="calculate-btn" onclick="calculateRepayment()">Calculate</button>
+    </div>
+
+    <script src="script.js"></script> <!-- Link JavaScript -->
+</body>
+</html>
