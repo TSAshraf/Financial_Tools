@@ -4,15 +4,16 @@ A collection of small calculators for everyday finances, written in HTML, CSS, J
 
 ## Loan Calculator
 Calculate repayments for personal loans.
+- [Demo](https://tsashraf.github.io/Financial_Tools/index.html)
 - [HTML version](loan_calculator/index.html)
 - [Python version](loan_calculator/loan_calculator.py)
 
 ## Real Estate Calculator
 Estimate mortgage or property costs.
+- [Demo](https://tsashraf.github.io/index.html)
 - [HTML version](real_estate_calculator/index.html)
 - [Python version](real_estate_calculator/real_estate_calculator.py)
 
 ---
 
-To test
-https://tsashraf.github.io/Financial_Tools/
+
