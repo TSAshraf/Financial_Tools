@@ -15,4 +15,4 @@ Estimate mortgage or property costs.
 ---
 
 To test
-https://tsashraf.github.io/index.html/Financial_Tools/
+https://tsashraf.github.io/Financial_Tools/
