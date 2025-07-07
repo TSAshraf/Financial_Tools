@@ -1,0 +1,88 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styling the form container */
+.container {
+    max-width: 400px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: auto;
+}
+
+/* Form group styling */
+.formgroup {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+/* Styling labels */
+.formgroup label {
+    font-weight: bold;
+    color: #007bff; /* Blue label text */
+    margin-bottom: 5px;
+}
+
+/* Styling input fields */
+.formgroup input,
+.formgroup select {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #007bff; /* Blue border */
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Change border color on focus */
+.formgroup input:focus,
+.formgroup select:focus {
+    border-color: #0056b3; /* Darker blue */
+}
+
+/* Styling the range slider */
+.formgroup input[type="range"] {
+    width: 100%;
+    accent-color: #007bff;
+}
+
+/* Style the interest rate display */
+#rateDisplay {
+    font-weight: bold;
+    color: #007bff;
+    margin-top: 5px;
+}
+
+/* Total repayment output */
+#totalRepayment {
+    font-size: 20px;
+    font-weight: bold;
+    color: #28a745; /* Green for emphasis */
+    margin-top: 10px;
+}
+
+/* Styling button */
+.calculate-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+.calculate-btn:hover {
+    background-color: #0056b3; /* Darker blue */
+}
