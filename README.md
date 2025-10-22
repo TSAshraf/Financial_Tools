@@ -10,10 +10,26 @@ Calculate repayments for personal loans.
 
 ## Real Estate Calculator
 Estimate mortgage or property costs.
-- [Demo](https://tsashraf.github.io/real_estate_calculator/index.html)
-- [HTML version](real_estate_calculator/index.html)
+- [Demo](https://tsashraf.github.io/Financial_Tools/real_estate_calculator/)
 - [Python version](real_estate_calculator/real_estate_calculator.py)
 
 ---
+## Savings calculator 
+
+---
+## Simple compound interest calculator
+
+---
+
+## Currency Converter
+
+---
+## Retirement planner
+
+---
+## Budget Breakdown
+
+---
+## Inflation Visualiser
 
 
